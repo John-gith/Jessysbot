@@ -5,9 +5,9 @@ var T = new Twit(config);
 var CronJob = require('cron').CronJob;
 
 const myAccount = '1446220334353506311'; //Ur account to avoid replying to yourself
-var statusTweet = `Check @trush_io, the new banking protocol on Solana blockchain. It has a lot of potential and interesting services!:)`; //Add your tweet here
+var statusTweet = `Visit the next successor in the crypto: @trush_io. Web3 will become easily thanks to their financial services! :D`; //Add your tweet here
 var isRunning = false;
-var hashtags = ['#defi'];
+var hashtags = ['#altcoin'];
 
 var job = new CronJob('*/15 * * * *', function () {
     if (isRunning == false) {
